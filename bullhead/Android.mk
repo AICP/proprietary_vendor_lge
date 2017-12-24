@@ -159,18 +159,6 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := HotwordEnrollmentWCD9330
-LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollmentWCD9330/HotwordEnrollmentWCD9330.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := LifeTimerService
 LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES := proprietary/priv-app/LifeTimerService/LifeTimerService.apk

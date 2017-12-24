@@ -91,7 +91,6 @@ PRODUCT_PACKAGES += \
     DMService \
     DiagMon \
     GCS \
-    HotwordEnrollmentWCD9330 \
     LifeTimerService \
     SprintDM \
     atfwd \
